@@ -3,6 +3,7 @@
     package="thirteen13.ddong">
 
     <application
+        android:name="thirteen13.ddong.DingDongApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
