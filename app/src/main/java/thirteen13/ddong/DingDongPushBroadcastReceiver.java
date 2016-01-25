@@ -14,6 +14,8 @@ public class DingDongPushBroadcastReceiver extends ParsePushBroadcastReceiver {
         Log.d("FOO", "onPushReceive");
         new Dingger(context).execute();
 
+        ThreadedDingger d;
+
         super.onPushReceive(context, receivedIntent);
 
     }

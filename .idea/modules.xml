@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/ddong.iml" filepath="$PROJECT_DIR$/ddong.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libddong/libddong.iml" filepath="$PROJECT_DIR$/libddong/libddong.iml" />
     </modules>
   </component>
 </project>

@@ -1,1 +1,3 @@
 include ':app'
+include ':libddong'
+project(':libddong').projectDir = new File(settingsDir, 'libddong')

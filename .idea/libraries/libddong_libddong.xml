@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="libddong.libddong">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libddong/build/libs/libddong.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

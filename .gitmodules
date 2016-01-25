@@ -1,0 +1,3 @@
+[submodule "libddong"]
+	path = libddong
+	url = git@github.com:floor-thirteen/libddong.git
