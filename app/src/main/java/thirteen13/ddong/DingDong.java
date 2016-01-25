@@ -25,9 +25,15 @@ public class DingDong extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(DingDong.this, "Send HTTP request here", Toast.LENGTH_SHORT).show();
+
+                DingDongMediaPlayer mp = new DingDongMediaPlayer(getApplicationContext(), R.raw.doorbell);
+                ThreadedDingger d = new ThreadedDingger(mp);
+
+                Thread dings = new Thread(d);
+                dings.start();
+
             }
         });
-
     }
 
     @Override
