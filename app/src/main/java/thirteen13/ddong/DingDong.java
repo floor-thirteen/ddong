@@ -8,6 +8,8 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
+
 
 public class DingDong extends AppCompatActivity {
 
@@ -22,10 +24,10 @@ public class DingDong extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                Toast.makeText(DingDong.this, "Send HTTP request here", Toast.LENGTH_SHORT).show();
             }
         });
+
     }
 
     @Override
