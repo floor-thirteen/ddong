@@ -12,7 +12,11 @@ public class DingDongPushBroadcastReceiver extends ParsePushBroadcastReceiver {
     @Override
     public void onPushReceive(Context context, Intent receivedIntent) {
         Log.d("FOO", "onPushReceive");
-        new Dingger(context).execute();
+
+        DingDongMediaPlayer mp = new DingDongMediaPlayer(context, R.raw.doorbell);
+        ThreadedDingger d = new ThreadedDingger(mp);
+        Thread dings = new Thread(d);
+        dings.start();
 
         super.onPushReceive(context, receivedIntent);
 

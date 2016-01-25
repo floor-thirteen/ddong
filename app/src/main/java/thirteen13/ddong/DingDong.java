@@ -28,7 +28,6 @@ public class DingDong extends AppCompatActivity {
 
                 DingDongMediaPlayer mp = new DingDongMediaPlayer(getApplicationContext(), R.raw.doorbell);
                 ThreadedDingger d = new ThreadedDingger(mp);
-
                 Thread dings = new Thread(d);
                 dings.start();
 
