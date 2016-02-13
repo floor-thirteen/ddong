@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">ddong</string>
     <string name="action_settings">Settings</string>
+    <string name="dingdong_activity_name">ddong</string>
     <string name="title_activity_ding_dong_selection">DingDongSelection</string>
+    <string name="title_activity_ding_dong_tabbed">ddong</string>
+    <string name="section_format">Hello World from section: %1$d</string>
 </resources>
